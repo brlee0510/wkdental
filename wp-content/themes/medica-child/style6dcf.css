@@ -1,0 +1,61 @@
+/*
+Theme Name: Medica Child
+Theme URI: http://themefuse.com/wp-themes-shop/medica/
+Description: Child theme for the Medica. Child themes are the recommended way of making modifications to a theme. <a href="http://codex.wordpress.org/Child_Themes">Reade More</a>
+Author: ThemeFuse
+Author URI: http://themefuse.com
+Template: medica-parent
+*/
+
+@import url("../medica-parent/style.css");
+
+.showcase-thumbnail-content p {
+color: #D36063;
+font-size: 13px;
+font-family: 'CartoGothicStdBook',Arial,Helvetica,sans-serif;
+}
+
+.header_contacts {
+text-align: right;
+padding-top: 25px;
+color: #c1787a;
+font-family: 'CartoGothicStdBold', Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-shadow: none;
+line-height: 1.2em;
+}
+
+.header_contacts p a.icon_map{
+color:#a1a1a1;
+}
+
+.header_contacts p a.icon_map:hover {
+color: #a1a1a1;
+text-decoration:underline;
+}
+
+.header_contacts span.icon_phone{
+color:#a1a1a1;
+}
+
+.header_contacts .icon_phone {
+background: url(images/icons/header_phonev2.png) right 0 no-repeat;
+padding-right: 22px;
+}
+
+.header_contacts .icon_map {
+background: url(images/icons/header_mapv2.png) right 0 no-repeat;
+padding-right: 22px;
+}
+
+.topmenu .dropdown {
+font-family: 'CartoGothicStdBold', Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 54px;
+color: #325b7b;
+z-index: 1300;
+margin: 0;
+padding: 0;
+text-shadow: 1px 2px 1px #fff;
+}
+    
